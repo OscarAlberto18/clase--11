@@ -17,7 +17,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-      <Saludo texto="Ale" edad="27"></Saludo>
+      <Saludo texto="Ale" edad="27">
+        Esto esta en el medio...
+      </Saludo>
       </main>
     </>
   )
